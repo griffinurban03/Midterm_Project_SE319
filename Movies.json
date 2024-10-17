@@ -1,0 +1,69 @@
+{
+    "movies": [
+         { 
+            "action": [
+                {
+                    "title": "Avengers",
+                    "year": 2012,
+                    "duration" : 120,
+                    "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png"
+                },
+                {
+                    "title": "Harry Potter",
+                    "year": 2012,
+                    "duration" : 120,
+                    "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png"
+                }
+            ]
+        },
+        { 
+            "thriller": [
+                {
+                    "title": "The Ring",
+                    "year": 2012,
+                    "duration" : 120,
+                    "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png"
+                },
+                {
+                    "title": "Sleepy Hallow",
+                    "year": 2012,
+                    "duration" : 120,
+                    "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png"
+                }
+            ]
+        },
+        { 
+            "animated": [
+                {
+                    "title": "Meet the Robinsons",
+                    "year": 2012,
+                    "duration" : 120,
+                    "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png"
+                },
+                {
+                    "title": "Leo and Stitch",
+                    "year": 2012,
+                    "duration" : 120,
+                    "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png"
+                }
+            ]
+        },
+        { 
+            "comedy": [
+                {
+                    "title": "The Heath Inspector",
+                    "year": 2012,
+                    "duration" : 120,
+                    "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png"
+                },
+                {
+                    "title": "Mall Cop",
+                    "year": 2012,
+                    "duration" : 120,
+                    "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png"
+                }
+            ]
+        }
+    ]
+}
+    
