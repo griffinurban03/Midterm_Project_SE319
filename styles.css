@@ -1,0 +1,29 @@
+body {
+    /* height: 100%; */
+    background-image: url('./Images/Background.webp'); /* Specify the path to your image */
+    background-size: cover; /* Make the image cover the entire background */
+    /* padding-top: 40rem; */
+    /* background-position: center; Center the image */
+}
+
+/* footer {
+    background-color: bg-dark;
+} */
+
+main {
+    padding: 20%;
+}
+
+.navbar-logo {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    position: absolute;
+    border-radius: 50%; /* Rounds the corners */
+    margin: 1px; /* Adds space between the logo and text */
+    margin-top: 4%;
+}
+
+/* Adjust the navbar-brand alignment */
+.navbar-brand {
+    padding-left: 110px; /* Add padding to make room for the logo */
+}
