@@ -26,6 +26,16 @@ h1 {
     1px 1px 0 #000; /* Ensures the border wraps tightly around the text */
 }
 
+h3 {
+    color: white;
+    font-family: inherit;
+    text-shadow:     
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; /* Ensures the border wraps tightly around the text */
+}
+
 .navbar-logo {
     width: 100px; /* Adjust size as needed */
     height: 100px; /* Adjust size as needed */
