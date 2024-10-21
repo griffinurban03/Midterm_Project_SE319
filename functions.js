@@ -86,7 +86,7 @@ function loadMovies(myMovies, option) {
 
         AddCardMovie.innerHTML = `
         <div class="card shadow-sm">
-            <img src=${url} class="card-img-top" alt="..."></img>
+            <img src=${url} class="card-img-top" style="height: 450px; object-fit: cover;" alt="..."></img>
             <div class="card-body">
                 <p class="card-text"> <strong>${title}</string>, ${year}</p>
             </div>
