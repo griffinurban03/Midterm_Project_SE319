@@ -8,9 +8,9 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="nav.css">
+    <script src="./functions.js"></script>
     <title>Movie Reviews</title>
 
 </head>
@@ -34,16 +34,16 @@
                         <a class="nav-link active" aria-current="page" href="movies.html">Movies</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="movies.html">Action</a>
+                        <a class="nav-link " aria-current="page" href="movies.html" onclick="showCardsAction()">Action</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="movies.html">Thriller</a>
+                        <a class="nav-link" aria-current="page" href="movies.html" onclick="showCardsThriller()">Thriller</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="movies.html">Animated</a>
+                        <a class="nav-link" aria-current="page" href="movies.html" onclick="showCardsAnimated()">Animated</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="movies.html">Comedy</a>
+                        <a class="nav-link" aria-current="page" href="movies.html" onclick="showCardsComedy()">Comedy</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="about.html">About</a>
@@ -66,6 +66,13 @@
 
     <main>
         <h1>Movies</h1>
+
+        <div class="album py-5 bg-body-tertiary">
+          <div class="container">
+              <div id="col" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+              </div>
+          </div>
+      </div>
     </main>
 
     <footer class="py-3 my-4" style="background-color: rgba(38, 38, 38, 0.90);">
