@@ -1,7 +1,18 @@
-function showAllMovies() {
+window.onload = function() {
+    // Get URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const genre = urlParams.get('genre');
+    
+    // Check if the genre exists and call the function
+    if (genre) {
+        showMovies(genre);
+    }
+}
+
+function showMovies(genre) {
     fetch("./Movies.json")
     .then(response => response.json())
-    .then(data => loadMovies(data, 0))
+    .then(data => loadMovies(data, genre))
     .catch(error => console.log("Error: " + error))
 }
 
@@ -21,7 +32,7 @@ function showAllComedies() {
 
 }
 
-function loadMovies(myMovies, option) {
+function loadMovies(myMovies, gen) {
     const arrayMovies = [];
 
     for(let i = 0; i < myMovies.movies.length; i++) {
@@ -31,7 +42,7 @@ function loadMovies(myMovies, option) {
     let arrayCatagories = [];
     let sortedMovies = [];
 
-    if(option === 0) {
+    if(gen === "all") {
         console.log("All movies");
         for (let i = 0; i < myMovies.movies.length; i++) {
             let category = myMovies.movies[i];  // Access the category object
@@ -41,6 +52,74 @@ function loadMovies(myMovies, option) {
             // Loop through each movie in the genre and add it to allMovies array
             for (let j = 0; j < movies.length; j++) {
                 sortedMovies.push(movies[j]);
+            }
+        }
+        console.log(sortedMovies);
+    }
+
+    if(gen === "action") {
+        console.log("action movies");
+        for (let i = 0; i < myMovies.movies.length; i++) {
+            let category = myMovies.movies[i];  // Access the category object
+            let genre = Object.keys(category)[0]; // Get the genre name (e.g., 'action', 'thriller')
+            if(gen === genre) {
+                let movies = category[genre];         // Get the array of movies in this genre
+            
+                // Loop through each movie in the genre and add it to allMovies array
+                for (let j = 0; j < movies.length; j++) {
+                    sortedMovies.push(movies[j]);
+                }
+            }
+        }
+        console.log(sortedMovies);
+    }
+
+    if(gen === "thriller") {
+        console.log("thriller movies");
+        for (let i = 0; i < myMovies.movies.length; i++) {
+            let category = myMovies.movies[i];  // Access the category object
+            let genre = Object.keys(category)[0]; // Get the genre name (e.g., 'action', 'thriller')
+            if(gen === genre) {
+                let movies = category[genre];         // Get the array of movies in this genre
+            
+                // Loop through each movie in the genre and add it to allMovies array
+                for (let j = 0; j < movies.length; j++) {
+                    sortedMovies.push(movies[j]);
+                }
+            }
+        }
+        console.log(sortedMovies);
+    }
+
+    if(gen === "animated") {
+        console.log("animated movies");
+        for (let i = 0; i < myMovies.movies.length; i++) {
+            let category = myMovies.movies[i];  // Access the category object
+            let genre = Object.keys(category)[0]; // Get the genre name (e.g., 'action', 'thriller')
+            if(gen === genre) {
+                let movies = category[genre];         // Get the array of movies in this genre
+            
+                // Loop through each movie in the genre and add it to allMovies array
+                for (let j = 0; j < movies.length; j++) {
+                    sortedMovies.push(movies[j]);
+                }
+            }
+        }
+        console.log(sortedMovies);
+    }
+
+    if(gen === "comedy") {
+        console.log("comedy movies");
+        for (let i = 0; i < myMovies.movies.length; i++) {
+            let category = myMovies.movies[i];  // Access the category object
+            let genre = Object.keys(category)[0]; // Get the genre name (e.g., 'action', 'thriller')
+            if(gen === genre) {
+                let movies = category[genre];         // Get the array of movies in this genre
+            
+                // Loop through each movie in the genre and add it to allMovies array
+                for (let j = 0; j < movies.length; j++) {
+                    sortedMovies.push(movies[j]);
+                }
             }
         }
         console.log(sortedMovies);
@@ -85,7 +164,7 @@ function loadMovies(myMovies, option) {
         AddCardMovie.classList.add("col");
 
         AddCardMovie.innerHTML = `
-        <div class="card shadow-sm">
+        <div class="card shadow-sm themed-movie-card">
             <img src=${url} class="card-img-top" alt="..."></img>
             <div class="card-body">
                 <p class="card-text"> <strong>${title}</string>, ${year}</p>

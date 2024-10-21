@@ -28,22 +28,22 @@
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="movies.html">Movies</a>
+                        <a class="nav-link" aria-current="page" href="movies.html?genre=all">Movies</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="movies.html" onclick="showCardsAction()">Action</a>
+                        <a class="nav-link" aria-current="page" href="movies.html?genre=action">Action</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="movies.html" onclick="showCardsThriller()">Thriller</a>
+                        <a class="nav-link" aria-current="page" href="movies.html?genre=thriller">Thriller</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="movies.html" onclick="showCardsAnimated()">Animated</a>
+                        <a class="nav-link" aria-current="page" href="movies.html?genre=animated">Animated</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="movies.html" onclick="showCardsComedy()">Comedy</a>
+                        <a class="nav-link" aria-current="page" href="movies.html?genre=comedy">Comedy</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="about.html">About</a>
@@ -66,10 +66,8 @@
 
     <main>
         <h1>Movies</h1>
-        <div class="album py-5 bg-body-tertiary themed-movie-card">
-            <div class="container">
-                <div id="col" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
-                </div>
+        <div class="container">
+            <div id="col" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
             </div>
         </div>
     </main>
