@@ -1,6 +1,7 @@
 body {
     /* height: 100%; */
     background-image: url('./Images/Background.webp'); /* Specify the path to your image */
+    background-attachment: fixed; 
     /* background-size: cover; Make the image cover the entire background */
     /* padding-top: 40rem; */
     /* background-position: center; Center the image */
