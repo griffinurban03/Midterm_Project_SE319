@@ -1,77 +1,223 @@
 {
     "movies": [
-         { 
+        {
             "action": [
                 {
                     "title": "Avengers",
                     "year": 2012,
-                    "duration" : 120,
+                    "duration": 120,
                     "url": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
                     "review": "txtFileTest"
                 },
                 {
                     "title": "Harry Potter",
-                    "year": 2001,
-                    "duration" : 120,
+                    "year": 2012,
+                    "duration": 120,
                     "url": "https://i.ebayimg.com/images/g/s7UAAOSw38dfDu1l/s-l1200.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Die Hard",
+                    "year": 1988,
+                    "duration": 132,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/c/ca/Die_Hard_%281988_film%29_poster.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "The Dark Knight",
+                    "year": 2008,
+                    "duration": 152,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Gladiator",
+                    "year": 2000,
+                    "duration": 155,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Avengers Endgame",
+                    "year": 2019,
+                    "duration": 181,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Black Panther",
+                    "year": 2018,
+                    "duration": 134,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Jurassic Park",
+                    "year": 1993,
+                    "duration": 127,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Transformers",
+                    "year": 2007,
+                    "duration": 144,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/6/66/Transformers07.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Mission Impossible Fallout",
+                    "year": 2018,
+                    "duration": 147,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/f/ff/MI_%E2%80%93_Fallout.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Pacific Rim",
+                    "year": 2013,
+                    "duration": 131,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Skyfall",
+                    "year": 2012,
+                    "duration": 143,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/a/a7/Skyfall_poster.jpg",
                     "review": "txtFileTest"
                 }
             ]
         },
-        { 
+        {
             "thriller": [
                 {
                     "title": "The Ring",
                     "year": 2002,
-                    "duration" : 120,
+                    "duration": 115,
                     "url": "https://m.media-amazon.com/images/M/MV5BMTY2ODc2NTQ2OF5BMl5BanBnXkFtZTYwNzA4OTU3._V1_.jpg",
                     "review": "txtFileTest"
                 },
                 {
                     "title": "Sleepy Hollow",
                     "year": 1999,
-                    "duration" : 120,
+                    "duration": 105,
                     "url": "https://upload.wikimedia.org/wikipedia/en/0/09/Sleepy_hollow_ver2.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Se7en",
+                    "year": 1995,
+                    "duration": 127,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/6/68/Seven_%28movie%29_poster.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Prisoners",
+                    "year": 2013,
+                    "duration": 153,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/6/63/Prisoners2013Poster.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Shutter Island",
+                    "year": 2010,
+                    "duration": 138,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "The Sixth Sense",
+                    "year": 1999,
+                    "duration": 107,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Sixth_Sense_poster.png",
                     "review": "txtFileTest"
                 }
             ]
         },
-        { 
+        {
             "animated": [
                 {
                     "title": "Meet the Robinsons",
                     "year": 2007,
-                    "duration" : 120,
+                    "duration": 102,
                     "url": "https://lumiere-a.akamaihd.net/v1/images/p_meettherobinsons_19888_f2779370.jpeg?region=0%2C0%2C540%2C810",
                     "review": "txtFileTest"
                 },
                 {
-                    "title": "Lilo and Stitch",
+                    "title": "Lilo & Stitch",
                     "year": 2002,
-                    "duration" : 120,
+                    "duration": 85,
                     "url": "https://musicart.xboxlive.com/7/71dd3900-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Toy Story",
+                    "year": 1995,
+                    "duration": 81,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Finding Nemo",
+                    "year": 2003,
+                    "duration": 100,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Zootopia",
+                    "year": 2016,
+                    "duration": 108,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/9/96/Zootopia_%28movie_poster%29.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Coco",
+                    "year": 2017,
+                    "duration": 105,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "The Incredibles",
+                    "year": 2004,
+                    "duration": 115,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/2/27/The_Incredibles_%282004_animated_feature_film%29.jpg",
                     "review": "txtFileTest"
                 }
             ]
         },
-        { 
+        {
             "comedy": [
                 {
-                    "title": "The Health Inspector",
-                    "year": 2006,
-                    "duration" : 120,
+                    "title": "The Heath Inspector",
+                    "year": 2012,
+                    "duration": 120,
                     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Larry_the_Cable_Guy_Health_Inspector.jpg/220px-Larry_the_Cable_Guy_Health_Inspector.jpg",
                     "review": "txtFileTest"
                 },
                 {
                     "title": "Mall Cop",
                     "year": 2009,
-                    "duration" : 120,
+                    "duration": 91,
                     "url": "https://musicart.xboxlive.com/7/320c1200-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Superbad",
+                    "year": 2007,
+                    "duration": 113,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/8/8b/Superbad_Poster.png",
+                    "review": "txtFileTest"
+                },
+                {
+                    "title": "Step Brothers",
+                    "year": 2008,
+                    "duration": 98,
+                    "url": "https://upload.wikimedia.org/wikipedia/en/d/d9/StepbrothersMP08.jpg",
                     "review": "txtFileTest"
                 }
             ]
         }
     ]
 }
-    
