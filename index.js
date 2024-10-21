@@ -187,6 +187,7 @@ function loadMovies(myMovies, gen) {
         let title = sortedMovies[i].title;
         let year = sortedMovies[i].year;
         let url = sortedMovies[i].url;
+        let duration = sortedMovies[i].duration;
         // let price = sortedMovies[i].price;
 
         console.log(title);
@@ -197,7 +198,7 @@ function loadMovies(myMovies, gen) {
         <div class="card shadow-sm themed-movie-card" onclick="getReview('${title}')">
             <img src=${url} class="card-img-top" style="height: 450px; object-fit: cover; border-radius: 5%;" alt="..."></img>
             <div class="card-body">
-                <p class="card-text"> <strong>${title}</string>, ${year}</p>
+                <p class="card-text"> <strong>${title}</string>, ${year}, ${duration}mins</p>
             </div>
         </div>`;
         CardMovie.appendChild(AddCardMovie);
