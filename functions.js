@@ -32,6 +32,36 @@ function showAllComedies() {
 
 }
 
+function getReview(title) {
+    var CardMovieOld = document.getElementById("col");
+    var CardMovie = document.getElementById("col2");
+
+    CardMovieOld.innerHTML = "";
+    CardMovieOld.innerHTML = "";
+    console.log("loadMovie"); //debugging
+    console.log(title);
+    let AddCardMovie = document.createElement("div");
+    AddCardMovie.classList.add("col2");
+
+    AddCardMovie.innerHTML = `
+    <div class="row mb-3 center"  style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+        <div class="col-8 themed-grid-par" style="border-radius: 2%;">
+          <h3><strong>${title}</strong></h3>
+          <p id="aboutMovie"></p>
+        </div>
+    </div>`;
+    CardMovie.appendChild(AddCardMovie);
+    
+    let path = './Reviews/' + title + '.txt';
+
+    fetch(path)
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('aboutMovie').innerText = data;
+        })
+        .catch(error => console.error('Error loading text file:', error));
+}
+
 function loadMovies(myMovies, gen) {
     const arrayMovies = [];
 
@@ -164,7 +194,7 @@ function loadMovies(myMovies, gen) {
         AddCardMovie.classList.add("col");
 
         AddCardMovie.innerHTML = `
-        <div class="card shadow-sm themed-movie-card">
+        <div class="card shadow-sm themed-movie-card" onclick="getReview('${title}')">
             <img src=${url} class="card-img-top" style="height: 450px; object-fit: cover;" alt="..."></img>
             <div class="card-body">
                 <p class="card-text"> <strong>${title}</string>, ${year}</p>
