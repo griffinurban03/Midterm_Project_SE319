@@ -164,7 +164,7 @@ function loadMovies(myMovies, gen) {
         AddCardMovie.classList.add("col");
 
         AddCardMovie.innerHTML = `
-        <div class="card shadow-sm">
+        <div class="card shadow-sm themed-movie-card">
             <img src=${url} class="card-img-top" style="height: 450px; object-fit: cover;" alt="..."></img>
             <div class="card-body">
                 <p class="card-text"> <strong>${title}</string>, ${year}</p>
