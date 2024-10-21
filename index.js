@@ -37,7 +37,7 @@ function getReview(title) {
     var CardMovie = document.getElementById("col2");
 
     CardMovieOld.innerHTML = "";
-    CardMovieOld.innerHTML = "";
+    CardMovie.innerHTML = "";
     console.log("loadMovie"); //debugging
     console.log(title);
     let AddCardMovie = document.createElement("div");
@@ -195,7 +195,7 @@ function loadMovies(myMovies, gen) {
 
         AddCardMovie.innerHTML = `
         <div class="card shadow-sm themed-movie-card" onclick="getReview('${title}')">
-            <img src=${url} class="card-img-top" style="height: 450px; object-fit: cover;" alt="..."></img>
+            <img src=${url} class="card-img-top" style="height: 450px; object-fit: cover; border-radius: 5%;" alt="..."></img>
             <div class="card-body">
                 <p class="card-text"> <strong>${title}</string>, ${year}</p>
             </div>
